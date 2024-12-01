@@ -7,7 +7,8 @@
 - [Monitoring & Logs](#monitoring--logs)  
 - [Results and Achievements](#results-and-achievements)  
 - [Future Improvements](#future-improvements)  
-- [Documentation](#documentation)  
+- [Configuration Examples](#configuration)
+- [Project Documentation](#dokumentation)  
 - [Disclaimer](#disclaimer)  
 - [Author](#author)  
 
@@ -97,13 +98,20 @@ Implemented a comprehensive logging system to track traffic and detect anomalies
 
 ---  
 
-## Documentation  
-- Configuration guides  
-- Network diagrams  
-- Policy documentation  
-- Incident response procedures  
+## Configuration Templates
+### SSH Server Configuration  
+- Configuration examples [config.sh](config.sh)
+- Firewall Base Configuration [firewall_config.sh](firewall_config.sh)
+- Monitoring Setup [monitoring.sh](monitoring.sh)
 
----  
+## Project Documentation
+### Change Log Template
+| Date       | Change Description | Implemented By | Approved By |
+|------------|-------------------|----------------|-------------|
+| 2023-08-07 | Initial firewall setup | Ishak Askin | Team Lead |
+| 2023-08-10 | HR policies implementation | Ishak Askin | Team Lead |
+
+### Incident Response Template
 
 ## Disclaimer  
 This project was implemented in a controlled environment with proper authorization and supervision. All sensitive information has been removed from this documentation.  
