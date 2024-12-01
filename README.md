@@ -85,7 +85,7 @@ firewall.add_rule(
     port=443,
     protocol="TCP",
     action="DENY"
-)
+)```
 ### Service Configuration
 1. Remote Access
    - SSH server deployment on Windows
