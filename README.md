@@ -5,7 +5,7 @@
 - [Architecture](#architecture)  
 - [Implementation Details](#implementation-details)  
 - [Monitoring & Logs](#monitoring--logs)  
-- [Results and Achievements](#results-and-achievements)  
+- [Performance Metrics, Results and Achievements](#results-and-achievements)  
 - [Future Improvements](#future-improvements)  
 - [Configuration Examples](#configuration)
 - [Project Documentation](#dokumentation)  
@@ -78,7 +78,7 @@ Implemented a comprehensive logging system to track traffic and detect anomalies
 
 ---  
 
-## Results and Achievements  
+## Performance Metrics, Results and Achievements  
 ![Performance Metrics](metrics.png)  
 
 ### Key Accomplishments  
