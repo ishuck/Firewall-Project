@@ -1,116 +1,106 @@
-# 🛡️ Enterprise Firewall Management Project
+# 🛡️ Enterprise Firewall Management Project  
 
-## 📚 Table of Contents
-- [Overview](#overview)
-- [Architecture](#network-architecture)
-- [Implementation Details](#implementation-details)
-- [Security Policies](#security-policies)
-- [Monitoring & Logs](#monitoring--logs)
-- [Performance Metrics](#performance-metrics)
-- [Documentation](#documentation)
-- [Future Improvements](#future-improvements)
+## 📚 Table of Contents  
+- [Overview](#overview)  
+- [Architecture](#architecture)  
+- [Implementation Details](#implementation-details)  
+- [Monitoring & Logs](#monitoring--logs)  
+- [Results and Achievements](#results-and-achievements)  
+- [Future Improvements](#future-improvements)  
+- [Documentation](#documentation)  
+- [Disclaimer](#disclaimer)  
+- [Author](#author)  
 
-## 🌟 Overview
-A comprehensive enterprise firewall implementation project completed during a 2-week internship at Rana Application. This project demonstrates advanced network segmentation, security policy implementation, and cyber threat protection for HR and ACCOUNTING departments.
+---  
 
-### Project Timeline
+## Overview  
+A comprehensive enterprise firewall implementation project completed during a 2-week internship at Rana Application. The project focuses on advanced network segmentation, security policy implementation, and cyber threat protection for the HR and ACCOUNTING departments.  
 
-## 🎯 Project Objectives
-- **Firewall Technology Implementation**
-- **Security Policy Development**
-- **Service Deployment**
-- **Network Monitoring**
-- **Access Control Management**
+### Project Objectives  
+- Implement firewall technologies  
+- Develop security policies  
+- Deploy essential services  
+- Monitor network traffic  
+- Manage access controls  
 
-## 🏗️ Architecture
-![Architecture](HrNetworks.png)
+---  
 
-## 🛠️ Technologies Used
-- OpenSSH Server
-- Linux Web Server
-- Windows RDP
-- Virtual IP and Port Forwarding
-- IDS (Intrusion Detection System)
-- Antivirus Module
-- Web Filtering System
+## Architecture  
+![Architecture](HrNetworks.png)  
 
-## 🔑 Key Features Implemented
+---  
 
-### Network Segmentation
-- Strict separation between HR and ACCOUNTING networks
-- Controlled inter-department communication
-- Specific port access management (80, 8080, 9090)
+## Implementation Details  
 
-### Security Policies
-- Zero-trust approach (no "any" rules)
-- Department-specific access controls
-- Application-based restrictions
-- Custom web filtering rules
-## 🔒 Security Policy Implementation
+### Technologies Used  
+- OpenSSH Server  
+- Linux Web Server  
+- Windows RDP  
+- Virtual IP and Port Forwarding  
+- IDS (Intrusion Detection System)  
+- Antivirus Module  
+- Web Filtering System  
 
-### Firewall Rules Configuration
-The script for managing firewall rules is available here:
-[firewall_rules.sh](firewall_rules.sh)
+### Key Features  
+#### Network Segmentation  
+- Strict separation between HR and ACCOUNTING networks  
+- Controlled inter-department communication  
+- Port-specific access (80, 8080, 9090)  
 
-### Service Configuration
-1. Remote Access
-   - SSH server deployment on Windows
-   - RDP access configuration
-   - Virtual IP implementation
+#### Security Policies  
+- Zero-trust approach (no "any" rules)  
+- Department-specific access controls  
+- Application-based restrictions  
+- Custom web filtering rules  
 
-2. Web Services
-   - Multi-port web server deployment (80, 8080, 9090)
-   - Access control policies
-   - Traffic monitoring
+#### Security Modules  
+- **Antivirus Integration**: Malware scanning, file download protection  
+- **IDS Implementation**: Real-time threat detection, malicious traffic blocking  
+- **Web Filtering**: Category-based filtering, custom block lists  
 
-### Security Modules
-- **Antivirus Integration**
-  - File download protection
-  - Malware scanning
+#### Service Configuration  
+- **Remote Access**: SSH and RDP setup, virtual IP implementation  
+- **Web Services**: Multi-port server deployment, traffic monitoring and access control  
 
-- **IDS Implementation**
-  - Real-time threat detection
-  - Malicious traffic blocking
+---  
 
-- **Web Filtering**
-  - Category-based filtering
-  - Custom block lists
-  - Department-specific rules
+## Monitoring & Logs  
+Implemented a comprehensive logging system to track traffic and detect anomalies.  
 
-## 📊 Results and Achievements
-![Performance Metrics](metrics.png)
+---  
 
-### Key Accomplishments
-- Successfully implemented departmental network segregation
-- Deployed comprehensive logging system
-- Established secure remote access protocols
-- Implemented multi-layer security controls
+## Results and Achievements  
+![Performance Metrics](metrics.png)  
 
-## 🔄 Future Improvements
-- SIEM Integration
-- Advanced threat analysis implementation
-- User training program development
-- High availability configuration
-- Custom policy enhancement
-- Incident response testing
+### Key Accomplishments  
+- Successful departmental network segregation  
+- Secure remote access protocols  
+- Multi-layered security control implementation  
 
-## 🔒 Security Considerations
-- All implementations follow security best practices
-- Data privacy measures in place
-- Regular security audits
-- Compliance with security standards
+---  
 
-## 📝 Documentation
-- Detailed configuration guides
-- Network diagrams
-- Policy documentation
-- Security incident response procedures
+## Future Improvements  
+- SIEM integration  
+- Advanced threat analysis  
+- User training programs  
+- High availability setup  
+- Custom policy refinement  
+- Incident response testing  
 
-## ⚠️ Disclaimer
-This project was implemented in a controlled environment with proper authorization and supervision. All sensitive information has been removed from this documentation.
+---  
 
-## 👤 Author
-Ishak Askin
+## Documentation  
+- Configuration guides  
+- Network diagrams  
+- Policy documentation  
+- Incident response procedures  
 
-## 📅 Project Duration
-August 7-18, 2023 (2 weeks)
+---  
+
+## Disclaimer  
+This project was implemented in a controlled environment with proper authorization and supervision. All sensitive information has been removed from this documentation.  
+
+---  
+
+## Author  
+Ishak Askin  
