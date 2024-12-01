@@ -50,7 +50,7 @@ A comprehensive enterprise firewall implementation project completed during a 2-
 
 ### Firewall Rules Configuration
 The script for managing firewall rules is available here:
-[firewall_rules.sh](scripts/firewall_rules.sh)
+[firewall_rules.sh](firewall_rules.sh)
 
 ### Service Configuration
 1. Remote Access
@@ -78,7 +78,7 @@ The script for managing firewall rules is available here:
   - Department-specific rules
 
 ## 📊 Results and Achievements
-![Performance Metrics]metrics.png)
+![Performance Metrics](metrics.png)
 
 ### Key Accomplishments
 - Successfully implemented departmental network segregation
