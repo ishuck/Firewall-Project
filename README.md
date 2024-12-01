@@ -2,7 +2,7 @@
 
 ## 📚 Table of Contents
 - [Overview](#overview)
-- [Network Architecture](#network-architecture)
+- [Architecture](#network-architecture)
 - [Implementation Details](#implementation-details)
 - [Security Policies](#security-policies)
 - [Monitoring & Logs](#monitoring--logs)
@@ -23,12 +23,8 @@ A comprehensive enterprise firewall implementation project completed during a 2-
 - **Access Control Management**
 
 ## 🏗️ Architecture
-[Here you should add a network diagram showing:
-- HR and ACCOUNTING network segments
-- Firewall placement
-- Server locations
-- Key connection points]
 ![Architecture](HrNetworks.png)
+
 ## 🛠️ Technologies Used
 - OpenSSH Server
 - Linux Web Server
@@ -116,10 +112,7 @@ firewall.add_rule(
   - Department-specific rules
 
 ## 📊 Results and Achievements
-[Consider adding a chart or metrics showing:
-- Number of security policies implemented
-- Blocked attack attempts
-- System performance metrics]
+!(metrics.png)
 
 ### Key Accomplishments
 - Successfully implemented departmental network segregation
@@ -155,11 +148,3 @@ Ishak Askin
 
 ## 📅 Project Duration
 August 7-18, 2023 (2 weeks)
-
----
-
-[Note: For actual implementation, you should:
-1. Create network topology diagrams using tools like draw.io
-2. Add screenshots of your implementations (with sensitive data removed)
-3. Include code snippets for any custom scripts
-4. Add performance metrics and security statistics]
