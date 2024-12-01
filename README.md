@@ -112,7 +112,7 @@ firewall.add_rule(
   - Department-specific rules
 
 ## 📊 Results and Achievements
-!(metrics.png)
+![Performance Metrics]metrics.png)
 
 ### Key Accomplishments
 - Successfully implemented departmental network segregation
