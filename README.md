@@ -49,43 +49,9 @@ A comprehensive enterprise firewall implementation project completed during a 2-
 ## 🔒 Security Policy Implementation
 
 ### Firewall Rules Configuration
+The script for managing firewall rules is available here:
+[firewall_rules.sh](scripts/firewall_rules.sh)
 
-```python
-# Example Python script for firewall rule management
-class FirewallRule:
-    def __init__(self):
-        self.rules = []
-
-    def add_rule(self, source, destination, port, protocol, action):
-        rule = {
-            'source': source,
-            'destination': destination,
-            'port': port,
-            'protocol': protocol,
-            'action': action
-        }
-        self.rules.append(rule)
-
-# Example Usage
-firewall = FirewallRule()
-
-# HR to Accounting RDP Access
-firewall.add_rule(
-    source="192.168.1.0/24",      # HR Network
-    destination="192.168.2.0/24",  # Accounting Network
-    port=3389,                     # RDP Port
-    protocol="TCP",
-    action="ALLOW"
-)
-
-# Block Social Media for Accounting
-firewall.add_rule(
-    source="192.168.2.0/24",      # Accounting Network
-    destination="*.facebook.com",  
-    port=443,
-    protocol="TCP",
-    action="DENY"
-)```
 ### Service Configuration
 1. Remote Access
    - SSH server deployment on Windows
