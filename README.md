@@ -30,7 +30,13 @@ A comprehensive enterprise firewall implementation project completed during a 2-
 
 ---  
 
-## Implementation Details  
+## Implementation Details 
+## Security Policy Implementation
+### Firewall Rules Script
+
+The script for managing firewall rules is available here:
+[firewall_rules.sh](firewall_rules.sh)
+
 
 ### Technologies Used  
 - OpenSSH Server  
@@ -64,8 +70,10 @@ A comprehensive enterprise firewall implementation project completed during a 2-
 
 ---  
 
-## Monitoring & Logs  
-Implemented a comprehensive logging system to track traffic and detect anomalies.  
+## Monitoring & Logs 
+Implemented a comprehensive logging system to track traffic and detect anomalies. 
+
+![Dashboard-Screenshot](grafics.png)
 
 ---  
 
